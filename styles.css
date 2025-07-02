@@ -1,3 +1,30 @@
 body {
   font-family: verdana;
 }
+
+.header {
+  position: sticky;
+  text-align: center;
+  top: 16px;
+  background-color: white;
+}
+
+.header ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header li {
+  font-size: 85%;
+  float: left;
+}
+
+.header li a {
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
