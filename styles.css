@@ -27,12 +27,16 @@ body {
   float: left;
 }
 
+.header hr {
+  margin: 0px;
+}
 
 .header a {
   color: black;
   display: block;
   text-align: center;
-  padding: 5px 10px;
+  padding: 8px 10px;
+  margin: 3px 0px;
   text-decoration: none;
 }
 
@@ -41,11 +45,11 @@ body {
 
 .header a:hover {
   font-style: italic;
-  background-color: gray; 
+  background-color: lightgray; 
   text-decoration: underline;
 }
 
-.header a:active, .header .active {
+.header .active {
   font-weight: bold;
   font-color: black;
 }
