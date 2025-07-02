@@ -10,7 +10,7 @@ body {
 }
 
 #TitleHeading {
-  padding-top: 16px;
+  padding-top: 20px;
   margin-top: 0px;
   font-size: 125%;
 }
@@ -27,9 +27,25 @@ body {
   float: left;
 }
 
-.header li a {
+
+.header a {
+  color: black;
   display: block;
   text-align: center;
   padding: 5px 10px;
   text-decoration: none;
+}
+
+.header a:link, .header a:visited {
+}
+
+.header a:hover {
+  font-style: italic;
+  background-color: gray; 
+  text-decoration: underline;
+}
+
+.header a:active, .header .active {
+  font-weight: bold;
+  font-color: black;
 }
