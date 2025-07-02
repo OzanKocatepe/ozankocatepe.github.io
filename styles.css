@@ -4,8 +4,8 @@ body {
 
 .header {
   position: sticky;
+  top: 0px;
   text-align: center;
-  top: 16px;
   background-color: white;
 }
 
