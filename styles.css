@@ -9,6 +9,12 @@ body {
   background-color: white;
 }
 
+#TitleHeading {
+  padding-top: 16px;
+  margin-top: 0px;
+  font-size: 125%;
+}
+
 .header ul {
   display: inline-block;
   list-style-type: none;
@@ -18,7 +24,6 @@ body {
 }
 
 .header li {
-  font-size: 85%;
   float: left;
 }
 
