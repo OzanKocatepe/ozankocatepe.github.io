@@ -1,0 +1,10 @@
+:root {
+  --main-background-color: white;
+  --second-background-color: lightgray;
+  --main-outline-color: black;
+  --header-hover-color: lightgray;
+  --main-text-color: black;
+  --main-font: roboto;
+  
+  --drop-shadow-color: rgba(0, 0, 0, 0.7);
+}
