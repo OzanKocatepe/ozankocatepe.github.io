@@ -1,6 +1,9 @@
 :root {
-  --main-background-color: white;
-  --main-accent-color: black;
-  --main-text-color: black;
-  --main-font: verdana;
+  --main-background-color: #111729;
+  --second-background-color: #1d2335;
+  --main-outline-color: white;
+  --main-text-color: white;
+  --main-font: roboto;
+  
+  --drop-shadow-color: rgba(255, 255, 255, 0.7);
 }
