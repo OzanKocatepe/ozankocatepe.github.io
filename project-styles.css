@@ -30,18 +30,14 @@
   width: 500px;
   height: 300px;
   object-fit: cover;
-}
-
-.project-list hr {
-  margin: 0px;
-  padding: 0px;
+  border-bottom: 2px solid black;
 }
 
 .project-list h3 {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .project-list p {
-  margin-left: 5px;
+  margin-left: 10px;
   padding-bottom: 10px;
 }
