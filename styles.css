@@ -1,12 +1,14 @@
 body {
-  font-family: verdana;
+  --header-hover-color: lightgray;
+
+  font-family: var(--main-font); 
 }
 
 .header {
   position: sticky;
   top: 0px;
   text-align: center;
-  background-color: white;
+  background-color: var(--main-background-color);
 }
 
 #TitleHeading {
@@ -32,7 +34,7 @@ body {
 }
 
 .header a {
-  color: black;
+  color: var(--main-text-color);
   display: block;
   text-align: center;
   padding: 8px 10px;
@@ -40,16 +42,14 @@ body {
   text-decoration: none;
 }
 
-.header a:link, .header a:visited {
-}
+.header a:link, .header a:visited { }
 
 .header a:hover {
   font-style: italic;
-  background-color: lightgray; 
+  background-color: var(--header-hover-color); 
   text-decoration: underline;
 }
 
 .header .active {
   font-weight: bold;
-  font-color: black;
 }

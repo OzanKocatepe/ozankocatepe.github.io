@@ -1,13 +1,19 @@
+body {
+  --project-width: 500px; 
+  --project-border: 2px solid black;
+  --project-text-left-margin: 10px;
+}
+
 .project-list {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(550px, 1fr) );
 }
 
 .project-list a {
-  width: 500px;
+  width: var(--project-width);
   height: auto;
   aspect-ratio: 10/9;
-  border: 2px solid black;
+  border: var(--project-border);
   margin: 50px auto;
   transition: box-shadow 0.5s, transform 0.2s;
 }
@@ -27,17 +33,17 @@
 }
 
 .project-list img {
-  width: 500px;
+  width: var(--project-width);
   height: 300px;
   object-fit: cover;
-  border-bottom: 2px solid black;
+  border-bottom: var(--project-border);
 }
 
 .project-list h3 {
-  margin-left: 10px;
+  margin-left: var(--project-text-left-margin);
 }
 
 .project-list p {
-  margin-left: 10px;
+  margin-left: var(--project-text-left-margin);
   padding-bottom: 10px;
 }
