@@ -1,14 +1,14 @@
 .project-list {
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(550px, 33%) );
+  grid-template-columns: repeat( auto-fit, minmax(550px, 1fr) );
 }
 
-.project-list div {
+.project-list a {
   width: 500px;
   height: auto;
   aspect-ratio: 10/9;
   border: 1px solid black;
-  margin: 50px;
+  margin: 50px auto;
 }
 
 .project-list img {
