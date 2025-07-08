@@ -5,7 +5,8 @@
 
 .project-list div {
   width: 500px;
-  height: 450px;
+  height: auto;
+  aspect-ratio: 10/9;
   border: 1px solid black;
   margin: 50px;
 }
@@ -13,6 +14,7 @@
 .project-list img {
   width: 500px;
   height: 300px;
+  object-fit: cover; 
 }
 
 .project-list hr {
@@ -20,10 +22,31 @@
   padding: 0px;
 }
 
-.project-list  h3 {
- padding-left: 5px;
+.project-list h3 {
+  margin-left: 5px;
 }
 
 .project-list p {
-  padding-left: 5px;
+  margin-left: 5px;
+  padding-bottom: 10px;
+}
+
+/* For width 500px and smaller */
+@media only screen and (max-width: 500px) {
+  
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+
+  .project-list div {
+    align: center;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .project-list img {
+    width: 350px;
+  }
+
 }
