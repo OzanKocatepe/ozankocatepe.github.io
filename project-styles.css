@@ -1,0 +1,29 @@
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-list div {
+  width: 500px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 50px;
+}
+
+.project-list img {
+  width: 500px;
+  height: 300px;
+}
+
+.project-list hr {
+  margin: 0px;
+  padding: 0px;
+}
+
+.project-list  h3 {
+ padding-left: 5px;
+}
+
+.project-list p {
+  padding-left: 5px;
+}
