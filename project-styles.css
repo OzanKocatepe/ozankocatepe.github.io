@@ -30,23 +30,3 @@
   margin-left: 5px;
   padding-bottom: 10px;
 }
-
-/* For width 500px and smaller */
-@media only screen and (max-width: 500px) {
-  
-  .project-list {
-    grid-template-columns: 1fr;
-  }
-
-  .project-list div {
-    align: center;
-    width: 350px;
-    margin: auto;
-    margin-bottom: 50px;
-  }
-
-  .project-list img {
-    width: 350px;
-  }
-
-}
