@@ -4,9 +4,9 @@ function ToggleTheme() {
   var themeCheckbox = document.getElementById("theme-toggle");
 
   if (themeCheckbox.checked === true) {
-    themeStylesheet.setAttribute("href", "dark-theme.css");
+    themeStylesheet.setAttribute("href", "css/dark-theme.css");
   }
   else {
-    themeStylesheet.setAttribute("href", "light-theme.css");
+    themeStylesheet.setAttribute("href", "css/light-theme.css");
   }
 }
