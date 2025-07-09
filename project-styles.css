@@ -34,12 +34,12 @@ body {
 }
 
 .project-list a:active {
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .project-list img {
   width: var(--project-width);
-  height: 300px;
+  aspect-ratio: 5/3;
   border-radius: var(--project-border-radius) var(--project-border-radius) 0px 0px;
   object-fit: cover;
   border-bottom: var(--project-border);
@@ -51,5 +51,22 @@ body {
 
 .project-list p {
   margin-left: var(--project-text-left-margin);
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+/* For screens less than 550 px wide. */
+@media screen and (max-width: 550px) {
+  .project-list {
+    display: block;
+  }
+
+  .project-list a, .project-list img {
+    font-size: 2.914vw;
+    width: 90.909090vw;
+  }
+
+  .project-list a {
+    aspect-ratio: auto;
+    height: auto;
+  }
 }
